@@ -1,0 +1,85 @@
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  background:transparent;
+  outline:none;
+  text-decoration:none;
+  outline:none;
+  box-sizing:border-box;
+  font-family: 'Alkatra', cursive;
+}
+
+ol, ul, li {
+list-style:none;
+display:block;
+}
+
+table {
+border-collapse: collapse;
+border-spacing:0;
+}
+
+a, img {
+border: none;
+}
+
+button, a {
+cursor: pointer;
+color: inherit;
+}
+
+textarea {
+resize: none;
+}
+
+button, input, textarea, select {
+appearance: none !important;
+-webkit-appearance: none !important;
+border-radius: 0;
+} 
+
+.App {
+  text-align: center;
+}
+
+.input {
+  width: 50vw;
+  padding: 10px;
+  margin: 100px 15px 30px;
+  border: 2px solid grey;
+  border-radius: 12px;
+  font-size: 26px;
+  font-family: 'Grape Nuts', cursive;
+}
+
+.todosContainer {
+  margin: 20px auto;
+  padding: 0 0 60px;
+  width: 60vw;
+}
+
+.todo {
+  width: 60vw;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todoText {
+  width: 40vw;
+  font-size: 36px;
+  font-family: 'Grape Nuts', cursive;
+  word-wrap: break-word;
+  text-align: left;
+  align-self: center;
+}
+
+Button[type='submit'] {
+  font-family: 'Alkatra', cursive;
+}
+
+Button[type='submit']:hover {
+  color: green;
+  transition: color .7s ease-in-out;
+}
